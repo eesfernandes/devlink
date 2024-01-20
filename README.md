@@ -1,30 +1,32 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Projeto DevLink - Curso Udemy
+DevLink é um projeto LinkTree + FireBase.
+<br>
+<br>
+O projeto possui:
+<br>
+- Configuração e proteção de rotas
+<br>
+- Estilização com Tailwindcss
+<br>
+- Conexão com bancos de dados - FireBase Google Service
+<br>
+- Tela de login
+<br>
+- Cadastro e exclusão de redes sociais no banco de dados
+<br>
+<br>
+## Link do projeto: https://devlink-five.vercel.app/
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+![TelaLinkTree](./src/assets/Tela%20link%20tree.PNG)
+<br>
+<br>
+![TelaDeLogin](./src/assets/Tela%20de%20login%20link%20tree.PNG)
+<br>
+<br>
+![TelaDeCadastro](./src/assets/Tela%20de%20cadastro%20dos%20links.PNG)
+<br>
+<br>
+![TelaRedesSociais](./src/assets/Tela%20redes%20sociais.PNG)
